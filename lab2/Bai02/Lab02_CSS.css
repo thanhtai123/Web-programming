@@ -1,0 +1,60 @@
+h1{
+    color: #c63b2d;
+}
+#about{
+    text-shadow: 4px 4px blue;
+}
+p{
+    font-family: Arial;
+}
+#i{
+    font-family: Arial;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.n1{
+    font-family: Arial;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#n3{
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.ired{
+    color: red;
+}
+
+.ired a{
+    color: red;
+}
+
+li a{
+    margin: 8px;
+    line-height: 1.75;
+}
+
+table,th,td{
+    border: 1px solid grey;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+#tw{
+    text-shadow: 1px 1px grey;
+    font-weight: bold;
+    color: #1a5353;
+    text-decoration-line: none;
+}
+
+img{
+    border-color: #ff0008;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 8px;
+}
