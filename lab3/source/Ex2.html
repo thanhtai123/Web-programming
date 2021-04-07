@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en”>
+<head>
+<meta charset="utf-8">
+<title>HTML class</title>
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    #ct{
+        margin: 0 auto;
+        width: 800px;
+    }
+    .cl{
+        float: left;
+    }
+    .cl.c1{
+        width: 250px;
+    }
+    .cl.c2{
+        width: 550px;
+    }
+    .cll{
+        float: left;
+    }
+    .cll.c1{
+        width: 275px;
+        background: green;
+        height: 128px;
+    }
+    .cll.c2{
+        width: 275px;
+        background: red;
+        height: 128px;
+    }
+    .clear{
+        clear: both;
+    }
+    #header{
+        background: grey;
+        height: 50px;
+
+    }
+    #part1{
+        background: blue;
+        height: 50px;
+        padding: 15px;
+        padding-left: 50px;
+    }
+
+    #part1 a{
+        color: aliceblue;
+
+
+    }
+
+    a{
+        font-size: large;
+    }
+
+    #linkk1{
+        background: yellow;
+        height: 150px;
+    }
+    #linkk2{
+        background: grey;
+        height: 150px;
+    }
+    #footer{
+        background: blue;
+        height: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+    }
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+
+    }
+    #p2{
+        padding-bottom: 30px;
+    }
+    #cl2top{
+        /*min-height: 600px;*/
+    }
+    .a{
+        padding-right: 10px;
+    }
+
+
+</style>
+</head>
+<body>
+    <div id="ct">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="part1">
+            <a href="#" class="a">Menu 1</a>
+            <a href="#" class="a">Menu 2</a>
+            <a href="#" class="a">Menu 3</a>
+            <a href="#" class="a">Menu 4</a>
+            <a href="#" class="a">Menu 5</a>
+        </div>
+        <div id="part2">
+            <div class="cl c1">
+                <div id="linkk1">
+                    <ul>
+                        <li><a href="#">Link 1</a> </li>
+                        <li><a href="#">Link 2</a> </li>
+                        <li><a href="#">Link 3</a> </li>
+                        <li><a href="#">Link 4</a> </li>
+                        <li><a href="#">Link 5</a> </li>
+                    </ul>
+                </div>
+                <div id="linkk2">
+                    <ul>
+                        <li><a href="#">Link 1</a> </li>
+                        <li><a href="#">Link 2</a> </li>
+                        <li><a href="#">Link 3</a> </li>
+                        <li><a href="#">Link 4</a> </li>
+                        <li><a href="#">Link 5</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cl c2">
+                <div id="cl2top">
+                    <p id="p1">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also
+                        the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets
+                        containing Lorem Ipsum passages, and more recently with desktop publishing
+                        software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    <p id="p2">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever
+                        since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages, and more recently with
+                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                </div>
+                <div id="cl2bot">
+                    <div class="cll c1">
+                        <p id="p3">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry </p>
+                    </div>
+                    <div class="cll c2">
+                        <p id="p4">
+                            Lorem Ipsum is simply dummy text
+                            of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>

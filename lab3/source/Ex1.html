@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en”>
+<head>
+<meta charset="utf-8">
+<title>HTML class</title>
+<style type="text/css">
+
+
+    #khung{
+        margin: 0 auto;
+        width: 750px;
+    }
+    .cl{
+        float: right;
+        /*display: flex;*/
+        min-height: 500px;
+    }
+    .cl.side{
+        width: 210px;
+        background: cornflowerblue;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0px;
+    }
+    .cl.middle{
+        background: #a4d4a4;
+        width: 500px;
+        /*padding: 10px;*/
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0px;
+        /*flex: 1;*/
+    }
+    .clear{
+        clear: both;
+        margin: 0px;
+        background: indianred;
+    }
+
+    #div1{
+        background: grey;
+        height: 50px;
+        padding-left: 10px;
+        line-height: 50px;
+    }
+
+    #div2{
+        background: indianred;
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    #div2 a{
+        padding: 5px;
+    }
+
+    #div4{
+        margin-top: -30px;
+        background: #D2DA9C;
+        padding: 20px;
+        text-align: justify;
+        height: 20px;
+
+    }
+
+    .cl.middle *{
+        padding: 5px;
+    }
+
+
+
+
+</style>
+</head>
+<body>
+<div id="khung">
+    <div id="div1">
+        <h1>Header</h1>
+    </div>
+    <div id="div2">
+        <a href="#">Option1</a>
+        <a href="#">Option2</a>
+        <a href="#">Option3</a>
+        <a href="#">Option4</a>
+        <a href="#">Option5</a>
+    </div>
+    <div id="div3">
+        <div class="cl side">
+            <h2>Column 2</h2>
+            <p>Lorem ipsum dolor sit amet, <br>consectetuer adipiscing elit. Mauris <br>vel magna</p>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 7</a></li>
+                <li><a href="#">Link 8</a></li>
+                <li><a href="#">Link 9</a></li>
+            </ul>
+        </div>
+        <div class="cl middle">
+            <h2>Column 1</h2>
+            <p><a href="#">456 Berea Street Home</a></p>
+            <p><a href="#">Simple 2 column CSS layout</a></p>
+            <p class="psp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Mauris vel magna. Mauris risus nunc, tristique varius, gravida in,
+                lacinia ye!, elit. Nam ornare, felis non faucibus tnolestie, nulla
+                augue adipiscing mauris, a nonummv diam ligula ut risus. Praesent varius.
+                Curn sociis natoque penatibus et magnis dis parturient monies, nascetur ridiculus mus. </p>
+            <p class="psp">Nulla a lacus. Nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit. Fusce pulvinar lobortis purus. Cum sociis natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Donec semper
+                ipsum et urna. Lt consequat neque vitae felis. Suspendisse dapibus, magna
+                quis pulvinar laoreet, dolor neque lacinia arcu, et luctus mi erat vestibulum sem.
+                Mauris faucibus iaculis lacus. Aliquam nec ante in qualm sollicitudin congue. Quisque
+                congue egestas elit. Quisque viverra. Donec feugiat elementum est. Etiam vel lorem.
+            </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="div4">
+        <p>Footer</p>
+    </div>
+</div>
+</body>
+</html>
