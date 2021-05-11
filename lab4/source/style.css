@@ -1,0 +1,23 @@
+#nb{
+	margin-bottom: 0;
+}
+#search {
+  float: right;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-sm-2 {
+	min-height: 600px;
+}
+input[type=text] {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  margin-bottom: : 8px;
+  margin-left: 80px;
+  font-size: 14px;
+  border: solid;
+}
+
