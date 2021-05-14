@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ex6</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="jvs.js"></script>
+</head>
+
+<body>
+    <div class="card bg-light">
+        <article class="card-body mx-auto" style="max-width: 400px;">
+            <form action="sv.php" method="GET">
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+                    <input name="fname" id="fname1" class="form-control" placeholder="First name" type="text">
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                    </div>
+                    <input name="lname" id="lname1" class="form-control" placeholder="Last name" type="text">
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope">Gender</i> </span>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline" style="margin-left: 5px;">
+                        <input type="radio" id="customRadioInline1" name="radio1" class="custom-control-input" value="male">
+                        <label class="custom-control-label" for="customRadioInline1">Male</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="radio1" class="custom-control-input" value="female">
+                        <label class="custom-control-label" for="customRadioInline2">Female</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline3" name="radio1" class="custom-control-input" value="unknow">
+                        <label class="custom-control-label" for="customRadioInline3">Unknow</label>
+                    </div>
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                    </div>
+                    <input name="email" class="form-control" id="email1" placeholder="Email address" type="text">
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend" style="max-height: 38px;">
+                        <span class="input-group-text"> <i class="fa fa-phone">Birthday</i> </span>
+                    </div>
+                    <input class="form-control" type="date" value="2000-01-01" id="example-date-input">
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Location <i class="fa fa-building"></i> </span>
+                    </div>
+                    <select class="form-control" id="loc1">
+                        <option selected="">Vietnam</option>
+                        <option>Australia</option>
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <!-- form-group end.// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" id="pass1" placeholder="Create password" type="password" name="password">
+                </div>
+                <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">About</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="about"></textarea>
+                    </div>
+                </div>
+                <!-- form-group// -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block" name="create"> Create Account  </button>
+                    <button type="submit" class="btn btn-primary btn-block" name="reset"> Reset  </button>
+                </div>
+            </form>
+        </article>
+    </div>
+    <!-- card.// -->
+
+</body>
+
+</html>
