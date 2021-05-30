@@ -50,7 +50,6 @@
         } else{
           echo '<script>alert("Complete!\n Press OK to continue!")</script>';
         }
-        include 'index.html';
     }
     else{
       include 'index.html';
